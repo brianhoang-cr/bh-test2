@@ -1,2 +1,4 @@
 remote_config:
-  url: "https://your-config-location/.coderabbit.yaml"
+  repository: "indeed/platform-config"
+  ref: "main"
+  path: "coderabbit/common.yaml"

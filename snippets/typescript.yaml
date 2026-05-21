@@ -1,0 +1,7 @@
+reviews:
+  profile: "chill"
+  path_filters:
+    - "!**/node_modules/**"
+    - "!**/dist/**"
+    - "**/*.ts"
+    - "**/*.tsx"

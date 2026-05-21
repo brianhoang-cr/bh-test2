@@ -1,0 +1,8 @@
+language: "en-US"
+reviews:
+  profile: "assertive"
+  high_level_summary: false
+  poem: false
+  request_changes_workflow: true
+chat:
+  auto_reply: false

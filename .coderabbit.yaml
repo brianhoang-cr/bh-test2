@@ -1,4 +1,4 @@
 remote_config:
-  repository: "brianhoang-cr/bh-test2"
+  repository: "bh-test2"
   ref: "main"
   path: "blah.yaml"

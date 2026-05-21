@@ -1,8 +1,8 @@
 includes:
-  - repository: "brianhoang-cr/bh-test2"
+  - repository: "bh-test2"
     ref: "main"
     path: "snippets/base.yaml"        # lowest priority
-  - repository: "brianhoang-cr/bh-test2"
+  - repository: "bh-test2"
     ref: "main"
     path: "snippets/typescript.yaml"  # overrides base
 

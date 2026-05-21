@@ -1,4 +1,14 @@
-remote_config:
-  repository: "bh-test2"
-  ref: "main"
-  path: "blah.yaml"
+includes:
+  - repository: "brianhoang-cr/bh-test2"
+    ref: "main"
+    path: "snippets/base.yaml"        # lowest priority
+  - repository: "brianhoang-cr/bh-test2"
+    ref: "main"
+    path: "snippets/typescript.yaml"  # overrides base
+
+# Repo-level keys — always win over all includes
+reviews:
+  high_level_summary: true
+  auto_review:
+    enabled: true
+    drafts: false

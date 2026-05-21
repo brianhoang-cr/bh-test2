@@ -1,4 +1,4 @@
 remote_config:
-  repository: "indeed/platform-config"
+  repository: "brianhoang-cr/bh-test2"
   ref: "main"
-  path: "coderabbit/common.yaml"
+  path: "blah.yaml"
